@@ -1,2 +1,2 @@
 # pyglatin
-Python code that takes an input and converts it to Pig Latin.
+Python code that takes in alpha-only words and converts them into Pig Latin.
