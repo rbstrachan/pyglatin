@@ -10,7 +10,7 @@ while play_again:
 		first_letter = word[0]
 		slice = word[1:len(word)]
 		final = slice + first_letter + suffix
-		print original + " in PygLatin is " + final
+		print "'" + original.title() + "'" + " in PygLatin is " + "'" + final.title() + "'"
 		print
 	else:
 		print "Im sorry. That didn't work. Please enter a word consisting of only alpha [non-numeric] characters."
